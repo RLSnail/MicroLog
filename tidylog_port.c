@@ -6,6 +6,12 @@
  * the others are not mandatory to finish.
 */
 
+/**
+ * @attention REQUIRED to implement!!
+ * @brief TidyLog will call this function when some infomation need to output.
+ * @arg content: A string pointer, points to the text will be output.
+ * @arg len: A integer indecates how many char will be output, including '\0'.
+*/
 void __tidylog_output(char* content, unsigned long long len) {
 
 }
