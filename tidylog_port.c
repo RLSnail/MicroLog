@@ -13,5 +13,5 @@
  * @arg len: A integer indecates how many char will be output, including '\0'.
 */
 void __tidylog_output(char* content, unsigned long long len) {
-
+    #warning "The interface '__tidylog_output' is NOT implement. "
 }
